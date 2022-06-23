@@ -10,23 +10,33 @@
   <body>
     <h1>Convert PX to REM, REMs to PX</h1>
     <!-- Pixel to rem conversion -->
-    <h3 id="title">Enter px value to convert to rems:</h3>
-    <form id="form-px">
-      <input id="px-input" type="text" />
-      <button id="convert-btn-px" type="submit" id="start">Convert</button>
-    </form>
-    <h2 class="conversion-output">
-      In rems: <span class="output-value" id="rem-output"></span>
-    </h2>
+    <div>
+      <h3 id="title">Enter px value to convert to rems:</h3>
+      <form id="form-px">
+        <input id="px-input" type="text" />
+        <button id="convert-btn-px" type="submit" id="start">Convert</button>
+      </form>
+      <div class="output-container">
+        <h2 class="conversion-output">
+          In rems: <span class="output-value" id="rem-output"></span>
+        </h2>
+        <button id="rem-copy-btn" class="copy-btn">Copy</button>
+      </div>
+    </div>
     <!-- Rem to pixel conversion -->
-    <h3 id="title">Enter rem value to convert to px:</h3>
-    <form id="form-rems">
-      <input id="rem-input" type="text" />
-      <button id="convert-btn-rems" type="submit" id="start">Convert</button>
-    </form>
-    <h2 class="conversion-output">
-      In px: <span id="px-output" class="output-value"></span>
-    </h2>
+    <div>
+      <h3 id="title">Enter rem value to convert to px:</h3>
+      <form id="form-rems">
+        <input id="rem-input" type="text" />
+        <button id="convert-btn-rems" type="submit" id="start">Convert</button>
+      </form>
+      <div class="output-container">
+        <h2 class="conversion-output">
+          In px: <span id="px-output" class="output-value"></span>
+        </h2>
+        <button id="px-copy-btn" class="copy-btn">Copy</button>
+      </div>
+    </div>
   </body>
   <script src="popup.js"></script>
 </html>

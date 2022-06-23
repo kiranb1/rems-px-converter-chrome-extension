@@ -12,3 +12,15 @@ h1,
 .output-value {
   color: brown;
 }
+
+.output-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy-btn {
+  height: 20px;
+  margin-left: 10px;
+  display: none;
+}
